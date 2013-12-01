@@ -1,0 +1,24 @@
+2013-12-01 23:02:33.198 TodoApp[43198:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-01 23:02:33.208 TodoApp[43198:80b] Unlimited access to network resources
+2013-12-01 23:02:33.211 TodoApp[43198:80b] ERROR: Start Page at 'www/index.html' was not found.
+2013-12-01 23:02:33.695 TodoApp[43198:80b] Resetting plugins due to page load.
+2013-12-01 23:02:33.735 TodoApp[43198:80b] Finished load of: about:blank
+2013-12-01 23:06:24.713 TodoApp[43624:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-01 23:06:24.723 TodoApp[43624:80b] Unlimited access to network resources
+2013-12-01 23:06:24.917 TodoApp[43624:80b] Resetting plugins due to page load.
+2013-12-01 23:06:25.676 TodoApp[43624:80b] Finished load of: file:///Users/nurazem/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D20BE8C7-436F-4F85-958C-D978D14F4852/TodoApp.app/www/index.html
+2013-12-01 23:07:11.859 TodoApp[43624:80b] Resetting plugins due to page load.
+2013-12-01 23:07:12.369 TodoApp[43624:80b] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2013-12-01 23:07:12.370 TodoApp[43624:80b] Resetting plugins due to page load.
+2013-12-01 23:07:14.586 TodoApp[43624:80b] Finished load of: https://twitter.com/driftyco
+2013-12-01 23:07:14.587 TodoApp[43624:80b] Resetting plugins due to page load.
+2013-12-01 23:07:17.378 TodoApp[43624:80b] Finished load of: https://mobile.twitter.com/driftyco
+2013-12-01 23:08:05.488 TodoApp[44012:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-01 23:08:05.498 TodoApp[44012:80b] Unlimited access to network resources
+2013-12-01 23:08:05.712 TodoApp[44012:80b] Resetting plugins due to page load.
+2013-12-01 23:08:05.999 TodoApp[44012:80b] Finished load of: file:///Users/nurazem/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D20BE8C7-436F-4F85-958C-D978D14F4852/TodoApp.app/www/index.html
+2013-12-01 23:08:06.048 TodoApp[44012:80b] THREAD WARNING: ['Device'] took '13.198975' ms. Plugin should use a background thread.
+2013-12-02 00:53:01.709 TodoApp[45598:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 00:53:01.724 TodoApp[45598:80b] Unlimited access to network resources
+2013-12-02 00:53:02.120 TodoApp[45598:80b] Resetting plugins due to page load.
+2013-12-02 00:53:02.261 TodoApp[45598:80b] Finished load of: file:///Users/nurazem/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D20BE8C7-436F-4F85-958C-D978D14F4852/TodoApp.app/www/index.html

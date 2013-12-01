@@ -1,0 +1,180 @@
+
+/**
+ * Scaffolding
+ * --------------------------------------------------
+ */
+
+*,
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+a {
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+}
+img {
+  -webkit-user-drag: none;
+}
+
+body, .ionic-body {
+  @include font-smoothing(antialiased);
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  @incude text-size-adjust(none);
+  @include tap-highlight-transparent();
+  @include user-select(none);
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+  
+  color: $base-color;
+  word-wrap: break-word;
+  font-size: $font-size-base;
+  font-family: $font-family-base;
+  line-height: $line-height-computed;
+  text-rendering: optimizeLegibility;
+  -webkit-user-drag: none;
+}
+
+.content:before,
+.content:after {
+  // Uncollapse content margin if child elements DO have an margin
+  display: block;
+  overflow: hidden;
+  height: 0;
+  content: "\00a0"; // No-break space character
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+
+/**
+ * Scroll is the scroll view component available for complex and custom
+ * scroll view functionality.
+ */
+.scroll {
+  @include user-select(none);
+  @include touch-callout(none);
+  @include text-size-adjust(none);
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+
+// Scroll refresher (for pull to refresh)
+.scroll-refresher {
+  display: none;
+  overflow: hidden;
+  margin-top: -100px;
+  height: 100px;
+}
+
+.scroll-refresher-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.ionic-refresher-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.ionic-refresher {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -5px;
+  // A custom refresher
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $positive;
+}
+
+.scroll-refreshing {
+  @include transition(height 0.1s ease-in-out);
+
+  .ionic-refresher {
+    @include animation(refresher-pulsate 1.5s linear);
+    -webkit-animation-iteration-count: infinite; 
+  }
+}
+
+@-webkit-keyframes refresher-pulsate {
+  0% {-webkit-transform: scale(2, 2); }
+  50% {-webkit-transform: scale(1.5, 1.5); }
+  100% {-webkit-transform: scale(2, 2); }
+}
+
+.overflow-scroll {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+
+  .scroll {
+    position: static;
+    height: 100%;
+  }
+}
+
+// Pad top/bottom of content so it doesn't hide behind .bar-title and .bar-tab.
+// Note: For these to work, content must come after both bars in the markup
+.has-header {
+  top: $bar-height;
+}
+
+.has-subheader {
+  top: $bar-height * 2;
+}
+
+.has-footer {
+  bottom: $bar-height;
+}
+
+// Specify that a content area will have tabs
+.has-tabs {
+  bottom: 44px;
+}
+
+// A full screen section with a solid background
+.pane {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
