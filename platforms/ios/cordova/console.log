@@ -22,3 +22,12 @@
 2013-12-02 00:53:01.724 TodoApp[45598:80b] Unlimited access to network resources
 2013-12-02 00:53:02.120 TodoApp[45598:80b] Resetting plugins due to page load.
 2013-12-02 00:53:02.261 TodoApp[45598:80b] Finished load of: file:///Users/nurazem/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D20BE8C7-436F-4F85-958C-D978D14F4852/TodoApp.app/www/index.html
+2013-12-02 01:06:12.646 TodoApp[46427:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 01:06:12.657 TodoApp[46427:80b] Unlimited access to network resources
+2013-12-02 01:06:12.866 TodoApp[46427:80b] Resetting plugins due to page load.
+2013-12-02 01:06:13.166 TodoApp[46427:80b] Finished load of: file:///Users/nurazem/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/EAAA16DE-6463-4914-BF9E-91071925D93A/TodoApp.app/www/index.html
+2013-12-02 01:51:41.343 TodoApp[47828:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-02 01:51:41.547 TodoApp[47828:80b] Unlimited access to network resources
+2013-12-02 01:51:41.764 TodoApp[47828:80b] Resetting plugins due to page load.
+2013-12-02 01:51:42.392 TodoApp[47828:80b] Finished load of: file:///Users/nurazem/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/EAAA16DE-6463-4914-BF9E-91071925D93A/TodoApp.app/www/index.html
+2013-12-02 01:51:42.452 TodoApp[47828:80b] THREAD WARNING: ['Device'] took '12.291992' ms. Plugin should use a background thread.
